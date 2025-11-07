@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-         stage('Clone Repository') {
+        stage('Clone Repository') {
             steps {
                 git 'https://github.com/gmanohar21/cicd-demo.git'
             }
